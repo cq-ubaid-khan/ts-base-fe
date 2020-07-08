@@ -1,0 +1,66 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module",
+    "ecmaFeatures": {
+
+    }
+  },
+  "plugins": [
+    //"sort-imports-es6-autofix"
+  ],
+  "extends": ["airbnb", "airbnb/hooks"],//["eslint:recommended", "airbnb-base"],
+  "rules": {
+    "no-unused-vars": ["error", {"vars":"all", "args":"none"}]
+//    "sort-imports-es6-autofix/sort-imports-es6": [2, {
+//      "memberSyntaxSortOrder": ["none", "all", "multiple", "single"],
+//      "ignoreCase": true
+//    }],
+//    "no-useless-escape": 0, //disabled and only used for regex escape chars
+//    "no-var":"warn",
+//    "prefer-arrow-callback": ["warn",{ "allowNamedFunctions": true }],
+//    "no-cond-assign": ["error", "always"],
+//    "no-console": "warn",
+//    "no-debugger": "warn",
+//    "no-redeclare": "warn",
+//    "curly": "warn",
+//    "no-empty": "warn", // no empty function or class
+//    "no-eval": "error",
+//    "prefer-template": "warn",
+//    "no-sparse-arrays": "error",
+//    "no-unused-vars": ["warn", {"vars": "all","args": "all"}],
+//    "no-use-before-define": ["warn"],
+//    "default-case": "warn", //for switch
+//    "eqeqeq": ["error","always"],// triple equals
+//    "valid-typeof": "warn",
+//    "use-isnan": "warn", //use isNan() rather than == NAN
+//    "complexity": ["error", 20],// ifelse, while, loops, etc
+//    "max-lines": ["error",{"max": 500, "skipComments": true,"skipBlankLines": true}],
+//    "max-len": ["warn", 125],
+//    "no-multiple-empty-lines": ["warn", { "max": 2, "maxEOF": 2,"maxBOF": 2 }],
+//    "no-extra-semi": "warn",
+//    "arrow-spacing": "warn",
+//    "quotes": ["warn", "double",{ "avoidEscape": true }],
+//    "semi": ["warn", "always"],
+//    "indent": ["warn", 2,{"FunctionDeclaration": {"body": 1, "parameters": 1},"CallExpression": {"arguments": "first"},"MemberExpression": 1 }],
+//    "no-alert": "warn",
+//    "no-invalid-this": "error", //http://eslint.org/docs/rules/no-invalid-this
+//    "arrow-parens": "warn",
+//    "no-template-curly-in-string": "warn", //http://eslint.org/docs/rules/no-template-curly-in-string
+//    "no-duplicate-case": "warn",
+//    "no-dupe-keys": "error", //http://eslint.org/docs/rules/no-dupe-keys
+//    "no-dupe-args": "error",
+//    "no-duplicate-imports":"error",
+//    "no-dupe-class-members":"error",
+//    "no-empty-function":"warn",
+//    "valid-jsdoc": "warn",
+//    "camelcase": ["warn", {"properties": "never"}] //to be dealt by Ahsan
+//    //for console warnings https://github.com/react-toolbox/react-toolbox/issues/1410
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  }
+}
