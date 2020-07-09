@@ -1,4 +1,4 @@
-// const configs = require('./configs/config.json');
+// const configs = require('./configs/config.ts');
 // const envConfig = configs[configs.env];
 const autoprefixer = require('autoprefixer');
 
@@ -15,12 +15,12 @@ module.exports = {
         exclude: /node_modules/,
         use: [
           {
-            loader: "babel-loader",
+            loader: 'babel-loader',
           },
           {
-            loader: 'ts-loader'
-          }
-        ]
+            loader: 'ts-loader',
+          },
+        ],
       },
 
       // { no need any more
