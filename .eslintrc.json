@@ -12,6 +12,16 @@
   ],
   "extends": ["airbnb", "airbnb/hooks"],//["eslint:recommended", "airbnb-base"],
   "rules": {
+    "import/extensions": [
+      "warn",
+      "ignorePackages",
+      {
+        "js": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never"
+      }
+    ],
     "no-unused-vars": ["error", {"vars":"all", "args":"none"}]
 //    "sort-imports-es6-autofix/sort-imports-es6": [2, {
 //      "memberSyntaxSortOrder": ["none", "all", "multiple", "single"],
