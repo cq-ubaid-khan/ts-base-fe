@@ -29,8 +29,9 @@
         "tsx": "never"
       }
     ],
-    "no-unused-vars": ["error", {"vars":"all", "args":"none"}]
-//    "sort-imports-es6-autofix/sort-imports-es6": [2, {
+    "no-unused-vars": ["error", {"vars":"all", "args":"none"}],
+    "react/jsx-filename-extension": [2, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }]
+    //    "sort-imports-es6-autofix/sort-imports-es6": [2, {
 //      "memberSyntaxSortOrder": ["none", "all", "multiple", "single"],
 //      "ignoreCase": true
 //    }],
